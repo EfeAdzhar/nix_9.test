@@ -26,6 +26,4 @@ public class BaseOperations1 {
         }
         return sum + Integer.parseInt(temp);
     }
-
-
 }
