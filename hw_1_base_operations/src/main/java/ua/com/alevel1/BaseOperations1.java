@@ -1,4 +1,4 @@
-package ua.com.alevel;
+package ua.com.alevel1;
 import java.util.Scanner;
 
 public class BaseOperations1 {

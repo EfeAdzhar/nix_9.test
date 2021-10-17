@@ -1,4 +1,4 @@
-package ua.com.alevel;
+package ua.com.alevel1;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.Scanner;
