@@ -4,13 +4,13 @@ import java.util.TreeMap;
 import java.util.Scanner;
 
 public class BaseOperations2 {
-    public static void main(String[] args) {
+    public void sumChars(String input) {
         Scanner scanner = new Scanner(System.in);
         String line = "";
         System.out.println("Enter a string:");
         line = scanner.nextLine();
         System.out.println("Your output:");
-        findChar(line);
+        findChar(input);
     }
 
     static void findChar(String inputString) {

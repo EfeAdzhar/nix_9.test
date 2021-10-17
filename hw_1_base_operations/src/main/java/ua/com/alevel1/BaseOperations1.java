@@ -2,7 +2,7 @@ package ua.com.alevel1;
 import java.util.Scanner;
 
 public class BaseOperations1 {
-    public static void main(String[] args) {
+    public void sumAll(String input) {
         Scanner scanner = new Scanner(System.in);
         String line = "";
         System.out.println("A program that takes a string\n" +
@@ -10,7 +10,7 @@ public class BaseOperations1 {
                 "and finds their sum");
         System.out.println("Enter your string:");
         line = scanner.nextLine();
-        System.out.println("Your output: " + findSum(line));
+        System.out.println("Your output: " + findSum(input));
     }
     static int findSum(String str) {
         String temp = "0";
